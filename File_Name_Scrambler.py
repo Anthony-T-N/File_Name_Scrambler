@@ -24,7 +24,7 @@ def file_name_generator():
         letters: Stores single ascii letters one at a time.
 
     return:
-        The new generated string.
+        The new generated string/name.
 
     """
     new_name = ''
