@@ -28,15 +28,15 @@ def file_name_generator():
 
     """
     new_name = ''
-    loop_number = random.randint(1, 5)
+    current_loop = random.randint(1, 5)
     # Creates a new string consisting of 1 - 5 characters.
-    for characters in range(loop_number):
+    for characters in range(current_loop):
         letters = random.choice(string.ascii_letters)
         new_name += letters
     new_name += '.'
-    loop_number = random.randint(2, 3)
+    current_loop = random.randint(2, 3)
     # Creates a new string of 2 - 3 characters.
-    for characters in range(loop_number):
+    for characters in range(current_loop):
         letters = random.choice(string.ascii_letters)
         new_name += letters
     return new_name
