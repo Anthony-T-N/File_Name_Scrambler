@@ -63,7 +63,7 @@ def locate_file(target_file):
         print('[-] Exact error message: ' + str(errorMsg))
 
 def options():
-    """Options function.
+    """ Options function.
 
     Function used to provide user options.
 
