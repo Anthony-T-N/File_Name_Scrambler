@@ -45,7 +45,7 @@ def file_name_generator():
 def locate_file(target_file):
     """ Locate file function.
     
-    Attempts to rename the specified file
+    Attempts to rename the specified file.
 
     Attributes:
         new_name: Stores a randomly created name produced from the file_name_generator.
