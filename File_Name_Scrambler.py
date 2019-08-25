@@ -5,7 +5,7 @@ Operations conducted through a command line.
 
 """
 
-__author__ = 'Anthony T Nguyen'
+__author__ = 'Anthony T. Nguyen'
 __version__ = '1.0.1'
 __date__ = '16.07.2019'
 
