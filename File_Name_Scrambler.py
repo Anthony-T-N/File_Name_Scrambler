@@ -77,7 +77,7 @@ def options():
     if (target_file == None):
         print("[-] Please specify a target file.")
         exit(0)
-    elif (target_file == '123'):
+    elif (target_file == 'test.xyz'):
         print(file_name_generator())
     else:
         locate_file(target_file)
