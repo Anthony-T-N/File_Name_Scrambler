@@ -15,7 +15,7 @@ import string
 import random
 
 def file_name_generator():
-    """ File name generator
+    """ File name generator.
 
     Function used to create a random string of characters for name and extension.
 
