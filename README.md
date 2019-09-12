@@ -11,4 +11,10 @@ Usage
 -
 Through a command line, run the script with the target file.
 
-Example: $File_Name_Scrambler -t random.txt
+Example: 
+```sh
+
+File_Name_Scrambler -t random.txt
+
+```
+
