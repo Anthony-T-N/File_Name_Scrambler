@@ -68,6 +68,7 @@ def options():
     Function used to provide user options.
 
     """
+    # Warning: OptionParser considered deprecated.
     parser = optparse.OptionParser("usage%prog " +\
         "-t <target file>")
     parser.add_option('-t', dest='target_file', type='string', \
