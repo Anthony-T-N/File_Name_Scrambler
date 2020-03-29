@@ -14,7 +14,7 @@ Through a command line, run the script with the target file.
 Example: 
 ```sh
 
-File_Name_Scrambler -t random.txt
+File_Name_Scrambler -t <"RandomTextFile.txt">
 
 ```
 
